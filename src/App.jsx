@@ -1,15 +1,14 @@
-import Headers from "./components/Headers";
-import NavBar from "./components/NavBar";
-import Slider from "./components/SlideShow";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./home/index";
 
 function App() {
   return (
-    <>
-      <Headers />
-      <NavBar />
-      <Slider />
-      <p className="text-[4rem] text-primary">the site is under !!!</p>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout anotherComponent={<Home />} />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

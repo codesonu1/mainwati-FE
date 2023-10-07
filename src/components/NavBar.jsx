@@ -11,6 +11,9 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const path = window.location.pathname;
+  console.log(path);
+
   return (
     <nav className="lg:mx-3 md:mx-0 sm:mx-0 ">
       <div className="mx-auto  my-2 md:my-0">
@@ -37,11 +40,13 @@ const Navbar = () => {
               isOpen ? "block" : "hidden"
             } `}
           >
-            <ul className="md:flex gap-1">
+            <ul className="md:flex gap-1 font-semibold">
               <li>
                 <a
                   href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90"
+                  className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
+                    path === "/" && "text-[orange]"
+                  }`}
                 >
                   Home
                 </a>
@@ -50,7 +55,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90"
+                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
                 >
                   About Us
                 </a>
@@ -59,7 +64,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90"
+                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
                 >
                   Achivement
                 </a>
@@ -68,7 +73,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90"
+                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
                 >
                   Production Proccess
                 </a>
@@ -77,7 +82,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90"
+                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
                 >
                   Capacity
                 </a>
@@ -86,7 +91,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90"
+                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
                 >
                   Factory
                 </a>
@@ -95,7 +100,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90"
+                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
                 >
                   Our Products
                 </a>
@@ -104,7 +109,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90"
+                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
                 >
                   Contact
                 </a>

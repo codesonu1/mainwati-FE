@@ -69,13 +69,13 @@ function Slideshow() {
         onClick={prevSlide}
         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[4rem]"
       >
-        <BiSkipPrevious />
+        <BiSkipPrevious className="bg-secondery  text-3xl rounded-full hover:text-primary" />
       </button>
       <button
         onClick={nextSlide}
         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[4rem]"
       >
-        <BiSkipNext />
+        <BiSkipNext className="bg-secondery  text-3xl rounded-full hover:text-primary" />
       </button>
     </div>
   );
