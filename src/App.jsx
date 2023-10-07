@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <p className="text-[4rem]">the site is under construction!!!</p>
+      <p className="text-[4rem]">the site is under !!!</p>
     </>
   );
 }
