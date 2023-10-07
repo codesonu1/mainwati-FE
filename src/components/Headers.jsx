@@ -30,7 +30,7 @@ const Headers = () => {
             </p>
           </p>
         </div>
-        <div className="flex gap-2 mbl-view ">
+        <div className="flex gap-2   ">
           <BsFacebook className="bg-secondery  p-1 text-[1.7rem] rounded-full text-[blue]" />
           <BsYoutube className="bg-secondery  p-1 text-[1.7rem] rounded-full text-[red]" />
           <BiLogoInstagramAlt className="bg-secondery  p-1 text-[1.7rem] rounded-full text-[#541919]" />
