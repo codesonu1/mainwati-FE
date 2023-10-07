@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="">
-      <div className="container mx-auto p-4">
+      <div className="mx-auto my-2">
         <div className="flex justify-between items-center mbl-design">
           <div className="text-xl font-semibold mbl-logo">
             <a href="/">
@@ -26,7 +26,7 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               {isOpen ? (
-                <AiOutlineClose className="bg-[white] text-[black] font-bold  text-[2rem] p-1 rounded-full relative left-[18rem] top-[-4rem] " />
+                <AiOutlineClose className="bg-[white] text-[black] font-bold  text-[2rem] p-1 rounded-full   " />
               ) : (
                 <FaBars className="bg-primary text-secondery font-bold  text-[2rem] p-1 rounded-full t " />
               )}
@@ -37,7 +37,7 @@ const Navbar = () => {
               isOpen ? "block" : "hidden"
             } `}
           >
-            <ul className="md:flex space-x-2">
+            <ul className="md:flex">
               <li>
                 <a
                   href="#"
