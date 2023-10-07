@@ -12,9 +12,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="">
-      <div className="mx-auto my-2">
-        <div className="flex justify-between items-center mbl-design">
+    <nav className="lg:mx-3 md:mx-0 sm:mx-0 ">
+      <div className="mx-auto  my-2 md:my-0">
+        <div className="flex justify-between items-center  mbl-design">
           <div className="text-xl font-semibold mbl-logo">
             <a href="/">
               <img src={logo} alt="logo" />
@@ -37,7 +37,7 @@ const Navbar = () => {
               isOpen ? "block" : "hidden"
             } `}
           >
-            <ul className="md:flex">
+            <ul className="md:flex gap-1">
               <li>
                 <a
                   href="#"
