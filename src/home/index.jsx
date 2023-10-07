@@ -1,10 +1,11 @@
 import Slideshow from "../components/SlideShow";
+import Features from "./Features";
 
 const index = () => {
   return (
     <div>
       <Slideshow />
-      <p>dfghjkl</p>
+      <Features />
     </div>
   );
 };

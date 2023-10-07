@@ -35,3 +35,11 @@
     width: 50px;
   }
 }
+
+.footer {
+  background-image: url("./assets/transmission-tower.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
