@@ -1,7 +1,12 @@
+import Headers from "./components/Headers";
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
     <>
-      <p className="text-[4rem]">the site is under !!!</p>
+      <Headers />
+      <NavBar />
+      <p className="text-[4rem] text-primary">the site is under !!!</p>
     </>
   );
 }
