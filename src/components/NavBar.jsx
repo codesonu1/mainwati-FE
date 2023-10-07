@@ -1,5 +1,9 @@
 import { useState } from "react";
 import logo from "../assets/logo.png";
+import { FaBars } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
+import "../index.css";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,8 +14,8 @@ const Navbar = () => {
   return (
     <nav className="">
       <div className="container mx-auto p-4">
-        <div className="flex justify-between items-center">
-          <div className="text-xl font-semibold">
+        <div className="flex justify-between items-center mbl-design">
+          <div className="text-xl font-semibold mbl-logo">
             <a href="/">
               <img src={logo} alt="logo" />
             </a>
@@ -22,40 +26,16 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               {isOpen ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
+                <AiOutlineClose className="bg-[white] text-[black] font-bold  text-[2rem] p-1 rounded-full relative left-[18rem] top-[-4rem] " />
               ) : (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6h16M4 12h16m-7 6h7"
-                  />
-                </svg>
+                <FaBars className="bg-primary text-secondery font-bold  text-[2rem] p-1 rounded-full t " />
               )}
             </button>
           </div>
           <div
-            className={`md:flex md:items-center ${isOpen ? "block" : "hidden"}`}
+            className={`md:flex md:items-center ${
+              isOpen ? "block" : "hidden"
+            } `}
           >
             <ul className="md:flex space-x-2">
               <li>
@@ -66,7 +46,7 @@ const Navbar = () => {
                   Home
                 </a>
               </li>
-              <span>|</span>
+              <span className="mbl-view">|</span>
               <li>
                 <a
                   href="#"
@@ -75,7 +55,7 @@ const Navbar = () => {
                   About Us
                 </a>
               </li>{" "}
-              <span>|</span>
+              <span className="mbl-view">|</span>
               <li>
                 <a
                   href="#"
@@ -84,7 +64,7 @@ const Navbar = () => {
                   Achivement
                 </a>
               </li>{" "}
-              <span>|</span>
+              <span className="mbl-view">|</span>
               <li>
                 <a
                   href="#"
@@ -93,7 +73,7 @@ const Navbar = () => {
                   Production Proccess
                 </a>
               </li>{" "}
-              <span>|</span>
+              <span className="mbl-view">|</span>
               <li>
                 <a
                   href="#"
@@ -102,7 +82,7 @@ const Navbar = () => {
                   Capacity
                 </a>
               </li>
-              <span>|</span>
+              <span className="mbl-view">|</span>
               <li>
                 <a
                   href="#"
@@ -111,7 +91,7 @@ const Navbar = () => {
                   Factory
                 </a>
               </li>
-              <span>|</span>
+              <span className="mbl-view">|</span>
               <li>
                 <a
                   href="#"
@@ -120,7 +100,7 @@ const Navbar = () => {
                   Our Products
                 </a>
               </li>
-              <span>|</span>
+              <span className="mbl-view">|</span>
               <li>
                 <a
                   href="#"

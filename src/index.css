@@ -17,3 +17,21 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+@media screen and (max-width: 575px) {
+  .mbl-view {
+    display: none;
+  }
+  .mbl-design {
+    background-color: #0776bb;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    border-radius: 6px;
+    text-align: start;
+    width: 100%;
+    padding: 8px;
+  }
+  .mbl-logo {
+    width: 50px;
+  }
+}
