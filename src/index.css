@@ -41,11 +41,14 @@
   .feature-mbl-tit {
     text-align: center;
   }
-  .feature-mb-head{
+  .feature-mb-head {
     margin: 1rem;
   }
 }
 
+.export-company {
+  background-image: url("./assets/exportsteel.jpg");
+}
 .footer {
   background-image: url("./assets/transmission-tower.jpg");
   width: 100%;

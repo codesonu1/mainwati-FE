@@ -1,14 +1,29 @@
 import { Container } from "@mui/material";
+import logo from "../assets/logo.png";
 import "../index.css";
 import { BiCurrentLocation, BiPhoneCall, BiLogoGmail } from "react-icons/bi";
-
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { BsFacebook, BsYoutube } from "react-icons/bs";
 import { BsCalendarDayFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <div className="bg-primary">
       <Container className="mt-[2rem]">
-        <div className="gap-3 grid lg:grid-cols-3 grid-flow-row md:grid-cols-3 py-[3rem]">
+        <div className="gap-3 grid lg:grid-cols-4 grid-flow-row md:grid-cols-2 py-[3rem]">
+          <div>
+            <img src={logo} alt="" width={70} className=" " />
+            <p className="text-secondery justify-content-justify">
+              Mainawati Steel Industries Pvt. Ltd. is an industrial unit under
+              vishal group. Vishal group Ltd. is a leading commercial house of
+              Nepal with a number of industrial & bussiness units.
+            </p>
+            <p className="flex gap-3 mt-3">
+              <BsFacebook className="bg-secondery  p-1 text-[1.7rem] rounded-full text-[blue]" />
+              <BsYoutube className="bg-secondery  p-1 text-[1.7rem] rounded-full text-[red]" />
+              <BiLogoInstagramAlt className="bg-secondery  p-1 text-[1.7rem] rounded-full text-[#541919]" />
+            </p>
+          </div>
           <div>
             <h1 className="uppercase text-xl font-semibold text-secondery py-2">
               OFFICE ADDRESS
@@ -37,7 +52,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="uppercase text-xl font-semibold text-secondery py-2">
-              Company
+              quick link
             </p>
             <p className="text-secondery hover:text-[orange] cursor-pointer">
               About Us

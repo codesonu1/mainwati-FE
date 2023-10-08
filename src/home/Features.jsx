@@ -3,7 +3,7 @@ import "../index.css";
 
 const Features = () => {
   return (
-    <Container className="bg-[#EEEEEE] my-5 py-5 rounded-md">
+    <Container className="bg-[#EEEEEE] my-5 py-[4rem] rounded-md">
       <div className="grid lg:grid-cols-4 grid-flow-row md:grid-cols-4 ">
         <div className="feature-mb-head">
           <p className="text-5xl font-semibold text-primary feature-mbl-tit">
