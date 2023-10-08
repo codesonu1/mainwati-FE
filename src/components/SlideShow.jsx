@@ -55,7 +55,7 @@ function Slideshow() {
       <img
         src={currentSlide.image}
         alt={`Slide ${currentSlideIndex + 1}`}
-        className="md:w-full lg:w-full lg:h-[800px] md:h-full w-full h-[400px]"
+        className="md:w-full lg:w-full lg:h-[800px] md:h-full w-full h-[300px]"
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <div className="text-white text-center">
@@ -67,13 +67,13 @@ function Slideshow() {
       </div>
       <button
         onClick={prevSlide}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[4rem]"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[0rem] "
       >
         <BiSkipPrevious className="bg-secondery  text-3xl rounded-full hover:text-primary" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[4rem]"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[0rem]"
       >
         <BiSkipNext className="bg-secondery  text-3xl rounded-full hover:text-primary" />
       </button>

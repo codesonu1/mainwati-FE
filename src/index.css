@@ -34,6 +34,16 @@
   .mbl-logo {
     width: 50px;
   }
+  .feature-mbl {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .feature-mbl-tit {
+    text-align: center;
+  }
+  .feature-mb-head{
+    margin: 1rem;
+  }
 }
 
 .footer {

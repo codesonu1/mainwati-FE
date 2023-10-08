@@ -3,7 +3,7 @@ import "../index.css";
 import { BiCurrentLocation, BiPhoneCall, BiLogoGmail } from "react-icons/bi";
 
 import { BsCalendarDayFill } from "react-icons/bs";
-import styled from "@emotion/styled";
+
 const Footer = () => {
   return (
     <div className="bg-primary">
@@ -39,12 +39,24 @@ const Footer = () => {
             <p className="uppercase text-xl font-semibold text-secondery py-2">
               Company
             </p>
-            <p className="text-secondery hover:text-[orange] cursor-pointer">About Us</p>
-            <p className="text-secondery hover:text-[orange] cursor-pointer">Production Process</p>
-            <p className="text-secondery hover:text-[orange] cursor-pointer">Factory</p>
-            <p className="text-secondery hover:text-[orange] cursor-pointer">Achivement</p>
-            <p className="text-secondery hover:text-[orange] cursor-pointer">Capacity</p>
-            <p className="text-secondery hover:text-[orange] cursor-pointer">Our Product</p>
+            <p className="text-secondery hover:text-[orange] cursor-pointer">
+              About Us
+            </p>
+            <p className="text-secondery hover:text-[orange] cursor-pointer">
+              Production Process
+            </p>
+            <p className="text-secondery hover:text-[orange] cursor-pointer">
+              Factory
+            </p>
+            <p className="text-secondery hover:text-[orange] cursor-pointer">
+              Achivement
+            </p>
+            <p className="text-secondery hover:text-[orange] cursor-pointer">
+              Capacity
+            </p>
+            <p className="text-secondery hover:text-[orange] cursor-pointer">
+              Our Product
+            </p>
           </div>
           <div>
             <p className="uppercase text-xl font-semibold text-secondery py-2">
