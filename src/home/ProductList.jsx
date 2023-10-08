@@ -11,7 +11,10 @@ const ProductList = () => {
         explore us
       </span>
       <div className="grid lg:grid-cols-3 md:grid-cols-2  grid-flow-row my-2 gap-3">
-        <div className="border border-primary rounded-md hover:bg-primary hover:p-2 hover:text-secondery cursor-pointer ">
+        <div
+          className="border border-primary rounded-md hover:bg-primary hover:p-2 hover:text-secondery cursor-pointer "
+          data-aos="zoom-in"
+        >
           <img src={pipes} alt="" className="w-full hover:rounded-md" />
           <p className="text-center capitalize py-3 text-xl font-bold">
             product proccess
@@ -21,7 +24,10 @@ const ProductList = () => {
             specifications as well as consistency of production
           </p>
         </div>
-        <div className="border border-primary rounded-md hover:bg-primary hover:p-2 hover:text-secondery cursor-pointer ">
+        <div
+          className="border border-primary rounded-md hover:bg-primary hover:p-2 hover:text-secondery cursor-pointer "
+          data-aos="zoom-in"
+        >
           <img src={tower} alt="" className="w-full hover:rounded-md" />
           <p className="text-center capitalize py-3 text-xl font-bold">
             CAPACITY
@@ -31,7 +37,10 @@ const ProductList = () => {
             Transmission LIne Telescopic Poles 4,000 MT/annum
           </p>
         </div>
-        <div className="border border-primary rounded-md hover:bg-primary hover:p-2 hover:text-secondery cursor-pointer ">
+        <div
+          className="border border-primary rounded-md hover:bg-primary hover:p-2 hover:text-secondery cursor-pointer "
+          data-aos="zoom-in"
+        >
           <img src={workers} alt="" className="w-full hover:rounded-md" />
           <p className="text-center capitalize py-3 text-xl font-bold">
             FACTORY
@@ -41,7 +50,10 @@ const ProductList = () => {
             supply in local and international markets.
           </p>
         </div>
-        <div className="border border-primary rounded-md hover:bg-primary hover:p-2 hover:text-secondery cursor-pointer ">
+        <div
+          className="border border-primary rounded-md hover:bg-primary hover:p-2 hover:text-secondery cursor-pointer "
+          data-aos="zoom-in"
+        >
           <img src={equipments} alt="" className="w-full hover:rounded-md" />
           <p className="text-center capitalize py-3 text-xl font-bold">
             EQUIPMENTS

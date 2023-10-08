@@ -8,10 +8,10 @@ const Product = () => {
   return (
     <Container className="my-[3rem] bg-secondery rounded-md shadow-md  ">
       <span className="text-secondery bg-primary uppercase p-2  font-bold  rounded-full ">
-       features
+        features
       </span>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-flow-row py-[4rem]">
-        <div className="flex gap-2 my-[4rem]">
+        <div className="flex gap-2 my-[4rem]" data-aos="zoom-in-right">
           <img
             src={plate}
             alt=""
@@ -27,7 +27,7 @@ const Product = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-2 my-[4rem]">
+        <div className="flex gap-2 my-[4rem]" data-aos="zoom-in-right">
           <img
             src={brige}
             alt=""
@@ -43,7 +43,7 @@ const Product = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-2 my-[4rem]">
+        <div className="flex gap-2 my-[4rem]" data-aos="zoom-in-right">
           <img
             src={steel}
             alt=""
@@ -59,7 +59,7 @@ const Product = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-2 my-[4rem]">
+        <div className="flex gap-2 my-[4rem]" data-aos="zoom-in-right">
           <img
             src={telescopicpole}
             alt=""
@@ -75,7 +75,7 @@ const Product = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-2 my-[4rem]">
+        <div className="flex gap-2 my-[4rem]" data-aos="zoom-in-right">
           <img
             src={prefabricatedbuilding}
             alt=""

@@ -10,7 +10,10 @@ const ExportCompany = () => {
           mainawati export company
         </p>
         <div className="grid md:grid-cols-3 grid-flow-row ">
-          <div className="bg-secondery rounded-md shadow-md lg:h-[30vh] lg:mt-[5rem] md:h-full md:mt-0 my-3 md:my-0 lg:my-0">
+          <div
+            className="bg-secondery rounded-md shadow-md lg:h-[30vh] lg:mt-[5rem] md:h-full md:mt-0 my-3 md:my-0 lg:my-0"
+            data-aos="fade-up"
+          >
             <p className="text-center text-xl font-bold py-[2rem] capitalize tracking-wide">
               quality policy
             </p>
@@ -22,7 +25,10 @@ const ExportCompany = () => {
               <MdVerifiedUser className="text-3xl" />
             </p>
           </div>
-          <div className="bg-primary rounded-md shadow-md  lg:h-[50vh] md:h-auto my-3 md:my-0 lg:my-0 h-[75vh]">
+          <div
+            className="bg-primary rounded-md shadow-md  lg:h-[50vh] md:h-auto my-3 md:my-0 lg:my-0 h-[75vh]"
+            data-aos="fade-up"
+          >
             <p className="text-center text-xl font-bold py-[2rem] capitalize tracking-wide text-secondery lg:mt-[5rem] md:mt-0">
               Product
             </p>
@@ -36,7 +42,10 @@ const ExportCompany = () => {
               <MdVerifiedUser className="text-3xl text-secondery" />
             </p>
           </div>
-          <div className="bg-secondery rounded-md shadow-md lg:mt-[5rem] lg:h-[30vh] md:h-auto md:mt-0">
+          <div
+            className="bg-secondery rounded-md shadow-md lg:mt-[5rem] lg:h-[30vh] md:h-auto md:mt-0"
+            data-aos="fade-up"
+          >
             <p className="text-center text-xl font-bold py-[2rem] capitalize tracking-wide">
               Achivement
             </p>
