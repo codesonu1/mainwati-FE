@@ -43,7 +43,7 @@ const Navbar = () => {
             <ul className="md:flex gap-1 font-semibold">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
                     path === "/" && "text-[orange]"
                   }`}
@@ -54,8 +54,10 @@ const Navbar = () => {
               <span className="mbl-view">|</span>
               <li>
                 <a
-                  href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
+                  href="/about"
+                  className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
+                    path === "/about" && "text-[orange]"
+                  }`}
                 >
                   About Us
                 </a>
@@ -63,8 +65,10 @@ const Navbar = () => {
               <span className="mbl-view">|</span>
               <li>
                 <a
-                  href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
+                  href="/acchivement"
+                  className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
+                    path === "/acchivement" && "text-[orange]"
+                  }`}
                 >
                   Achivement
                 </a>
@@ -72,8 +76,10 @@ const Navbar = () => {
               <span className="mbl-view">|</span>
               <li>
                 <a
-                  href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
+                  href="/production-process"
+                  className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
+                    path === "/production-process" && "text-[orange]"
+                  }`}
                 >
                   Production Proccess
                 </a>
@@ -81,8 +87,10 @@ const Navbar = () => {
               <span className="mbl-view">|</span>
               <li>
                 <a
-                  href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
+                  href="capacity"
+                  className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
+                    path === "/capacity" && "text-[orange]"
+                  }`}
                 >
                   Capacity
                 </a>

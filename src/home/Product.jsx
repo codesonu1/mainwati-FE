@@ -6,8 +6,8 @@ import telescopicpole from "../assets/telescopicpole.png";
 import prefabricatedbuilding from "../assets/prefabricatedbuilding.jpg";
 const Product = () => {
   return (
-    <Container className="my-[3rem] bg-secondery rounded-md shadow-md  ">
-      <span className="text-secondery bg-primary uppercase p-2  font-bold  rounded-full ">
+    <Container className="my-[3rem] bg-secondery rounded-md shadow-md  pt-[2rem] ">
+      <span className="text-secondery bg-primary uppercase p-2  font-bold  rounded-full mt-[2rem] ">
         features
       </span>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-flow-row py-[4rem]">
