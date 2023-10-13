@@ -1,15 +1,19 @@
 import { useState, useEffect } from "react";
 import { BiSkipPrevious, BiSkipNext } from "react-icons/bi";
+import slide1 from "../assets/slide1.png";
+import img1 from "../assets/1.png";
+import img2 from "../assets/img2.png";
+
 import "../index.css";
 
 const slides = [
   {
-    image: "https://www.mainawatisteel.com/images/banner3.jpg",
+    image: slide1,
     caption: "Telecommunication & Transmission Towers",
     subtitle: "Mainawati has a 3000 MTPA tower manufacturing unit",
   },
   {
-    image: "https://www.mainawatisteel.com/images/banner.jpg",
+    image: img1,
     caption: "Mainawati Steel",
     subtitle: "Since 1995",
   },
@@ -21,6 +25,10 @@ const slides = [
   {
     image: "https://www.mainawatisteel.com/images/9.jpg",
     caption: "Suspension Bridge",
+  },
+  {
+    image: img2,
+    caption: "exprole",
   },
   // Add more slides here
 ];

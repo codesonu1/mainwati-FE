@@ -1,5 +1,5 @@
 import { Container } from "@mui/material";
-import pipes from "../assets/pipes.png";
+import rod from "../assets/rod.png";
 import equipments from "../assets/equipments.png";
 import workers from "../assets/workers.png";
 import tower from "../assets/tower.png";
@@ -34,7 +34,7 @@ const ProductList = () => {
 
 const productsLists = [
   {
-    img: pipes,
+    img: rod,
     tittle: "product proccess",
     desc: " Mechanization in all production processes assures conformity to   specifications as well as consistency of production",
   },

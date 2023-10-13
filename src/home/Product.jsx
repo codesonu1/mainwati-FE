@@ -1,7 +1,7 @@
 import { Container } from "@mui/material";
 import brige from "../assets/bridge.jpg";
-import plate from "../assets/plate.jpg";
-import steel from "../assets/steel.jpeg";
+import plate from "../assets/plate.png";
+import steel from "../assets/rod.png";
 import telescopicpole from "../assets/telescopicpole.png";
 import prefabricatedbuilding from "../assets/prefabricatedbuilding.jpg";
 const Product = () => {

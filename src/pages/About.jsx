@@ -1,7 +1,7 @@
 import { Container } from "@mui/material";
 import about from "../assets/about.jpg";
 import vision from "../assets/vision.jpg";
-import mission from "../assets/mission.jpg";
+import mission from "../assets/img3.png";
 const About = () => {
   return (
     <div>
