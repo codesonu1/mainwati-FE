@@ -34,7 +34,7 @@ const ProductionProcess = () => {
           other steel items, three are for manufacturing distribution line
           hardware and pole fittings and one shed for stores.
         </p>
-        <div className="grid grid-flow-row grid-cols-2 gap-3 my-5">
+        <div className="grid grid-flow-row md:grid-cols-2 gap-3 my-5">
           <div>
             <img
               src={mission}
@@ -46,7 +46,7 @@ const ProductionProcess = () => {
               className="rounded-[5px]"
             />
           </div>
-          <div className="mx-[3rem]">
+          <div className="md:mx-[3rem]">
             <p className="text-2xl uppercase text-secondery py-2 font-bold rounded-lg underline mt-[2rem]">
               QUALITY POLICY
             </p>

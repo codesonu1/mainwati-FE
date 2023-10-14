@@ -120,10 +120,12 @@ const Navbar = () => {
               <span className="mbl-view">|</span>
               <li>
                 <a
-                  href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
+                  href="contact-us"
+                  className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
+                    path === "/contact-us" && "text-[orange]"
+                  }`}
                 >
-                  Contact
+                  Contact us
                 </a>
               </li>
             </ul>

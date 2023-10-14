@@ -44,7 +44,7 @@ const About = () => {
           helped the country by reducting dependence on constly imports and has,
           retroactively, saved precious foreign exchange.
         </p>
-        <div className="grid grid-cols-2 grid-flow-row gap-3 my-5">
+        <div className="grid md:grid-cols-2 grid-flow-row gap-3 my-5">
           <div>
             <div>
               <p className="text-2xl uppercase text-secondery py-2 font-bold rounded-lg underline mt-[2rem]">
@@ -92,7 +92,7 @@ const About = () => {
               className="rounded-[5px]"
             />
           </div>
-          <div className="mx-[3rem]">
+          <div className="md:mx-[3rem]">
             <p className="text-2xl uppercase text-secondery py-2 font-bold rounded-lg underline mt-[2rem]">
               QUALITY POLICY
             </p>

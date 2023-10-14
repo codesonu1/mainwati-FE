@@ -1,4 +1,5 @@
 import Slideshow from "../components/SlideShow";
+import AboutUs from "./AboutUs";
 import ExportCompany from "./ExportCompany";
 import Features from "./Features";
 import Product from "./Product";
@@ -10,6 +11,7 @@ const index = () => {
       <Slideshow />
       <Features />
       <Product />
+      <AboutUs />
       <ProductList />
       <ExportCompany />
     </div>

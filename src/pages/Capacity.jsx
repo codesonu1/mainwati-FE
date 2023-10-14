@@ -21,7 +21,7 @@ const Capacity = () => {
           Mainawati Steel Limited has been set up to penetrate the following
           markets at the mentioned capacities:
         </p>
-        <div className="grid grid-cols-3 grid-flow-row gap-4   my-[3rem]">
+        <div className="grid md:grid-cols-3 grid-flow-row gap-4   my-[3rem]">
           <div className="border border-secondery shadow-lg p-4 rounded-lg hover:bg-secondery cursor-pointer">
             <h1 className="text-secondery text-2xl capitalize hover:text-[black]">
               Tubes & Pipes - 25000 MT/Annum 25,000 MT/annum
@@ -62,7 +62,7 @@ const Capacity = () => {
             factory complex together with ancillary units and facilites as
             listed below:
           </p>
-          <div className=" grid grid-cols-2 grid-flow-row gap-3">
+          <div className=" grid md:grid-cols-2 grid-flow-row gap-3">
             <div>
               <ul className="">
                 <li className="hover:px-2 hover:underline cursor-pointer py-2">

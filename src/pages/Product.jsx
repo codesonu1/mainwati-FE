@@ -24,7 +24,7 @@ const Product = () => {
                 />
                 <h1 className="text-primary text-center py-3">{ele.name}</h1>
                 <p className="text-justify p-3">{ele.desc.slice(0, 200)}....</p>
-                <Link to={`${i+1}`}>
+                <Link to={`${i + 1}`}>
                   <div className="flex my-2 justify-center">
                     <span className="border-primary text-secondery uppercase border p-2 rounded-md cursor-pointer hover:bg-secondery hover:text-primary bg-primary">
                       read more
@@ -45,6 +45,16 @@ const products = [
     img: p1,
     name: "TELECOMMUNICATION & TRANSMISSION TOWERS",
     desc: "Mainawati has a 3000 MTPA tower manufacturing unit strategically located at Duhabi-3, Sunsari. The plant is equipped with the latest CNC line for fabrication of towers and microprocessor based temperature controlled eco-friendly systems for galvanization of tower members.",
+    features: [
+      {
+        feature: "FABRICATION PROCESS",
+        desc: "Multipurpose CNC machines directly read the drawings, punch, stamp and cut steel. Heavy duty machines perform even the heaviest of bends without distortion. Strategically positioned EOT cranes efficiently perform material handling.",
+      },
+      {
+        feature: "GALVANIZING PROCESS",
+        desc: "The furnace is controlled by microprocessors to give control on the bath temperature. The drying oven uniformly dries and pre-heats the steel, which removes spurting and gives an excellent surface finish to the product. Mainawati Steels’s factory has got one of the biggest (size 7.25 x 1.2 x 1.2 m)",
+      },
+    ],
   },
   {
     img: p2,

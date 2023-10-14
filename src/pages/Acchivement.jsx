@@ -9,7 +9,7 @@ const Acchivement = () => {
         <span className="text-secondery bg-primary uppercase p-2  font-bold  rounded-full ">
           achievement
         </span>
-        <div className=" grid grid-cols-2 grid-flow-row my-5 gap-4">
+        <div className=" grid md:grid-cols-2 grid-flow-row my-5 gap-4">
           <div>
             <img src={mainwatiIso} alt="" className="h-[500px] rounded-lg" />
             <p className="text-secondery text-justify pt-[2em]">

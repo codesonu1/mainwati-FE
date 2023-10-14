@@ -12,7 +12,7 @@ const Factory = () => {
         </span>
         <div className="my-3">
           <img src={factoryBanner} alt="" className="rounded-lg"/>
-          <div className="grid grid-cols-2 grid-flow-row gap-3">
+          <div className="grid md:grid-cols-2 grid-flow-row gap-3">
             <div>
               <p className="text-secondery text-justify p-3">
                 The factory of Mainawati Steel Industries Pvt. Ltd. is located
