@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Acchivement from "./pages/Acchivement";
 import ProductionProcess from "./pages/ProductionProcess.jsx";
 import Capacity from "./pages/Capacity.jsx";
+import Factory from "./pages/Factory";
+import Product from "./pages/Product";
 
 function App() {
   return (
@@ -26,6 +28,14 @@ function App() {
         <Route
           path="/capacity"
           element={<Layout anotherComponent={<Capacity />} />}
+        />
+        <Route
+          path="/factory"
+          element={<Layout anotherComponent={<Factory />} />}
+        />
+        <Route
+          path="/product"
+          element={<Layout anotherComponent={<Product />} />}
         />
       </Routes>
     </BrowserRouter>

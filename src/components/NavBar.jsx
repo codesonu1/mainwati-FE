@@ -98,8 +98,10 @@ const Navbar = () => {
               <span className="mbl-view">|</span>
               <li>
                 <a
-                  href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
+                  href="factory"
+                  className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
+                    path === "/factory" && "text-[orange]"
+                  }`}
                 >
                   Factory
                 </a>
@@ -107,10 +109,12 @@ const Navbar = () => {
               <span className="mbl-view">|</span>
               <li>
                 <a
-                  href="#"
-                  className="hover:text-primary uppercase text-[14px] opacity-90 px-2"
+                  href="product"
+                  className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
+                    path === "/product" && "text-[orange]"
+                  }`}
                 >
-                  Our Products
+                  Product
                 </a>
               </li>
               <span className="mbl-view">|</span>
