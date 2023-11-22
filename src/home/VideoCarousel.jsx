@@ -55,26 +55,28 @@ function Carousel() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <div className="relative" data-carousel="static">
+      <span className="text-secondery bg-primary uppercase p-2  font-bold  rounded-full ">
+        Media & news
+      </span>
+      <div className="relative " data-carousel="static">
         {/* Carousel wrapper */}
-        <div className="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+        <div className="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96 mt-3">
           {/* Item 1 */}
           <div
-            className={`duration-700 ease-in-out ${
+            className={`duration-700 ease-in-out  ${
               currentSlide === 0 ? "" : "hidden"
             }`}
             data-carousel-item
           >
-            <span className="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">
-              First Slide
-            </span>
-            <video controls className="w-full">
-              <source
-                src="https://www.youtube.com/watch?v=UUzMm7t7Rk0"
-                type="video"
-              />
-              Your browser does not support the video tag.
-            </video>
+            <iframe
+              width="560"
+              height="315"
+              className="w-full"
+              src="https://www.youtube.com/embed/wZNLY5qJkpY?si=RLPo-qIOlnzeyzx7"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
           {/* Item 2 */}
           <div
@@ -83,13 +85,15 @@ function Carousel() {
             }`}
             data-carousel-item
           >
-            <video controls className="w-full">
-              <source
-                src="https://www.youtube.com/watch?v=JUzVhbB9Qq4"
-                type="video"
-              />
-              Your browser does not support the video tag.
-            </video>
+            <iframe
+              width="560"
+              height="315"
+              className="w-full"
+              src="https://www.youtube.com/embed/wZNLY5qJkpY?si=RLPo-qIOlnzeyzx7"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
           {/* Item 3 */}
           <div
@@ -98,13 +102,15 @@ function Carousel() {
             }`}
             data-carousel-item
           >
-            <video controls className="w-full">
-              <source
-                src="https://www.youtube.com/watch?v=wZNLY5qJkpY"
-                type="video"
-              />
-              Your browser does not support the video tag.
-            </video>
+            <iframe
+              width="560"
+              height="315"
+              className="w-full"
+              src="https://www.youtube.com/embed/wZNLY5qJkpY?si=RLPo-qIOlnzeyzx7"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
         {/* Slider indicators */}
