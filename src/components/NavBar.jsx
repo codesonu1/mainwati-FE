@@ -40,89 +40,89 @@ const Navbar = () => {
               isOpen ? "block" : "hidden"
             } `}
           >
-            <ul className="md:flex gap-1 font-semibold">
+            <ul className="md:flex gap-1 font-semibold text-[#317eb9]">
               <li>
                 <a
                   href="/"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
-                    path === "/" && "text-[orange]"
+                    path === "/" && "text-[black]"
                   }`}
                 >
                   Home
                 </a>
               </li>
-              <span className="mbl-view">|</span>
+              {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a
                   href="/about"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
-                    path === "/about" && "text-[orange]"
+                    path === "/about" && "text-[black]"
                   }`}
                 >
                   About Us
                 </a>
               </li>{" "}
-              <span className="mbl-view">|</span>
+              {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a
                   href="/acchivement"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
-                    path === "/acchivement" && "text-[orange]"
+                    path === "/acchivement" && "text-[black]"
                   }`}
                 >
                   Achivement
                 </a>
               </li>{" "}
-              <span className="mbl-view">|</span>
+              {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a
                   href="/production-process"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
-                    path === "/production-process" && "text-[orange]"
+                    path === "/production-process" && "text-[black]"
                   }`}
                 >
                   Production Proccess
                 </a>
               </li>{" "}
-              <span className="mbl-view">|</span>
+              {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a
                   href="capacity"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
-                    path === "/capacity" && "text-[orange]"
+                    path === "/capacity" && "text-[black]"
                   }`}
                 >
                   Capacity
                 </a>
               </li>
-              <span className="mbl-view">|</span>
+              {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a
                   href="factory"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
-                    path === "/factory" && "text-[orange]"
+                    path === "/factory" && "text-[black]"
                   }`}
                 >
                   Factory
                 </a>
               </li>
-              <span className="mbl-view">|</span>
+              {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a
                   href="product"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
-                    path === "/product" && "text-[orange]"
+                    path === "/product" && "text-[black]"
                   }`}
                 >
                   Product
                 </a>
               </li>
-              <span className="mbl-view">|</span>
+              {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a
                   href="contact-us"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
-                    path === "/contact-us" && "text-[orange]"
+                    path === "/contact-us" && "text-[black]"
                   }`}
                 >
                   Contact us

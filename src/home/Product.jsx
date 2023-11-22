@@ -18,7 +18,7 @@ const Product = () => {
             className="w-[100px] h-[100px] rounded-full border border-[gray] p-1"
           />
           <div className="mx-3">
-            <h1 className="text-xl py-2 font-bold capitalize hover:text-[orange] cursor-pointer">
+            <h1 className="text-xl py-2 font-bold capitalize hover:text-[#2782C2] cursor-pointer">
               Steel plate
             </h1>
             <p>
@@ -34,7 +34,7 @@ const Product = () => {
             className="w-[100px] h-[100px] rounded-full border border-[gray] p-1"
           />
           <div className="mx-3">
-            <h1 className="text-xl py-2 font-bold capitalize hover:text-[orange] cursor-pointer">
+            <h1 className="text-xl py-2 font-bold capitalize hover:text-[#2782C2] cursor-pointer">
               Steel bridge
             </h1>
             <p>
@@ -50,7 +50,7 @@ const Product = () => {
             className="w-[100px] h-[100px] rounded-full border border-[gray] p-1"
           />
           <div className="mx-3">
-            <h1 className="text-xl py-2 font-bold capitalize hover:text-[orange] cursor-pointer">
+            <h1 className="text-xl py-2 font-bold capitalize hover:text-[#2782C2] cursor-pointer">
               Steel
             </h1>
             <p>
@@ -66,7 +66,7 @@ const Product = () => {
             className="w-[100px] h-[100px] rounded-full border border-[gray] p-1"
           />
           <div className="mx-3">
-            <h1 className="text-xl py-2 font-bold capitalize hover:text-[orange] cursor-pointer">
+            <h1 className="text-xl py-2 font-bold capitalize hover:text-[#2782C2] cursor-pointer">
               tele scopicpole
             </h1>
             <p>
@@ -82,7 +82,7 @@ const Product = () => {
             className="w-[100px] h-[100px] rounded-full border border-[gray] p-1"
           />
           <div className="mx-3">
-            <h1 className="text-xl py-2 font-bold capitalize hover:text-[orange] cursor-pointer">
+            <h1 className="text-xl py-2 font-bold capitalize hover:text-[#2782C2] cursor-pointer">
               prefabricate dbuilding
             </h1>
             <p>
