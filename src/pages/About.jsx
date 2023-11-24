@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div>
       <Container className="my-4">
-        <span className="text-secondery bg-primary uppercase p-2  font-bold  rounded-full  ">
+        <span className=" uppercase p-2  font-bold  rounded-full  ">
           About
         </span>
-        <p className="py-3 text-secondery font-[400]  text-xl text-justify">
+        <p className="py-3  font-[400]  text-xl text-justify">
           Mainawati Steel Industries Pvt. Ltd. is an industrial unit under
           vishal group. Vishal group Ltd. is a leading commercial house of Nepal
           with a number of industrial & bussiness units. Mainawati Steel
@@ -27,7 +27,7 @@ const About = () => {
           }}
           className="rounded-[5px]"
         />
-        <p className="text-secondery py-2">
+        <p className=" py-2">
           Mainawati Steel Industries Pvt. Ltd. was established in the year
           1995.Ever since its inception, the company, adhering to the strict and
           rigorous norms that come with quality and consistent performance, has
@@ -47,10 +47,10 @@ const About = () => {
         <div className="grid md:grid-cols-2 grid-flow-row gap-3 my-5">
           <div>
             <div>
-              <p className="text-2xl uppercase text-secondery py-2 font-bold rounded-lg underline mt-[2rem]">
+              <p className="text-2xl uppercase  py-2 font-bold rounded-lg underline mt-[2rem]">
                 mission
               </p>
-              <p className="text-secondery py-3 text-xl">
+              <p className=" py-3 text-xl">
                 "Mainawati Steel's mission is to create a steel company which
                 can deliver diversified products of steel under one roof with
                 high quality standards at the most reasonable and affordable
@@ -58,10 +58,10 @@ const About = () => {
               </p>
             </div>
             <div>
-              <p className="text-2xl uppercase text-secondery py-2 font-bold rounded-lg underline mt-[2rem]">
+              <p className="text-2xl uppercase  py-2 font-bold rounded-lg underline mt-[2rem]">
                 VISION
               </p>
-              <p className="text-secondery py-3 text-xl">
+              <p className=" py-3 text-xl">
                 Mainawati Steel will become one of the largest G.I. Pipes and
                 other necessary fabricated steel items in terms of volume and
                 diversify product and will be recognized for its professional &

@@ -8,7 +8,7 @@ const Features = () => {
         <div className="grid lg:grid-cols-4 grid-flow-row md:grid-cols-4 ">
           <div className="feature-mb-head">
             <p className="text-5xl font-semibold text-[white] feature-mbl-tit py-2">
-              <CountUp end={65} />
+              <CountUp end={30} />
             </p>
             <p className="text-black font-bold capitalize feature-mbl text-[white]">
               Years of Experience
@@ -16,7 +16,7 @@ const Features = () => {
           </div>
           <div className="feature-mb-head">
             <p className="text-5xl font-semibold text-[white] feature-mbl-tit py-2">
-              <CountUp end={1000} />+
+              <CountUp end={100000} />+
             </p>
             <p className="text-black font-bold capitalize feature-mbl text-[white]">
               Million Tons of Steel
@@ -24,18 +24,18 @@ const Features = () => {
           </div>
           <div className="feature-mb-head">
             <p className="text-5xl font-semibold text-[white] feature-mbl-tit py-2">
-              <CountUp end={1200} />
+              <CountUp end={400} />
             </p>
             <p className="text-black font-bold capitalize feature-mbl text-[white]">
-              Thousand Tons of Steels Per Year
+              employees
             </p>
           </div>
           <div className="feature-mb-head">
             <p className="text-5xl font-semibold text-[white] feature-mbl-tit py-2">
-              <CountUp end={4300} />+
+              <CountUp end={2} />+
             </p>
             <p className="text-black font-bold capitalize  feature-mbl text-[white]">
-              Million Litres of SS tank
+              Billion turn over
             </p>
           </div>
         </div>

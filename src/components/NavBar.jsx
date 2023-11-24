@@ -52,7 +52,7 @@ const Navbar = () => {
                 </a>
               </li>
               {/* <span className="mbl-view text-[red]">|</span> */}
-              <li>
+              {/* <li>
                 <a
                   href="/about"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
@@ -61,7 +61,7 @@ const Navbar = () => {
                 >
                   About Us
                 </a>
-              </li>{" "}
+              </li>{" "} */}
               {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a
@@ -74,7 +74,7 @@ const Navbar = () => {
                 </a>
               </li>{" "}
               {/* <span className="mbl-view text-[red]">|</span> */}
-              <li>
+              {/* <li>
                 <a
                   href="/production-process"
                   className={`hover:text-primary uppercase text-[14px] opacity-90 px-2 ${
@@ -83,7 +83,7 @@ const Navbar = () => {
                 >
                   Production Proccess
                 </a>
-              </li>{" "}
+              </li>{" "} */}
               {/* <span className="mbl-view text-[red]">|</span> */}
               <li>
                 <a

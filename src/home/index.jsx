@@ -1,4 +1,5 @@
 import Slideshow from "../components/SlideShow";
+import VideoPlayer from "../components/VideoTag.jsx";
 import AboutUs from "./AboutUs";
 import ExportCompany from "./ExportCompany";
 import Features from "./Features";
@@ -11,6 +12,7 @@ import VideoCarousel from "./VideoCarousel.jsx";
 const index = () => {
   return (
     <div>
+      {/* <VideoPlayer /> */}
       <Slideshow />
       <Features />
       <AboutUs />

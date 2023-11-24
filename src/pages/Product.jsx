@@ -13,25 +13,46 @@ const Product = () => {
         <span className="text-secondery bg-primary uppercase p-2  font-bold  rounded-full mt-[2rem] ">
           products range
         </span>
-        <div className="grid md:grid-cols-3 grid-flow-row gap-3 mt-5 ">
+        <div className="max-w-xl mx-auto text-center">
+          <div className="inline-flex px-4 py-1.5 mx-auto rounded-full  ">
+            <p className="text-4xl font-semibold tracking-widest text-g uppercase">
+              Industries:
+            </p>
+          </div>
+          <p className="mt-4 text-base leading-relaxed text-gray-600 group-hover:text-[white]">
+            Mainawati Steel Industries Pvt. Ltd. is an industrial unit under
+            vishal group. Vishal group Ltd. is a leading commercial house of
+            Nepal with a number of industrial & bussiness units. Mainawati Steel
+            Industries Pvt. Ltd. is managed by board of directors which is
+            headed by a chairman. Management of Mainawati Steel Industries Pvt.
+            Ltd. has a long experience in industry and trading that is amply
+            reflected in the proficiency by which the organization is being
+            presently run.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 gap-2   sm:grid-cols-3 lg:mt-20   mt-5 ">
           {products.map((ele, i) => {
             return (
-              <div key={i} className="bg-secondery rounded-lg">
-                <img
-                  src={ele.img}
-                  alt={ele.name}
-                  className="  hover:opacity-25"
-                />
-                <h1 className="text-primary text-center py-3">{ele.name}</h1>
-                <p className="text-justify p-3">{ele.desc.slice(0, 200)}....</p>
-                <Link to={`${i + 1}`}>
-                  <div className="flex my-2 justify-center">
-                    <span className="border-primary text-secondery uppercase border p-2 rounded-md cursor-pointer hover:bg-secondery hover:text-primary bg-primary">
-                      read more
-                    </span>
-                  </div>
-                </Link>
-              </div>
+              <a
+                href="#"
+                key={i}
+                className="transition-all  duration-1000 bg-secondery hover:bg-primary  shadow-lg rounded-md hover:shadow-md m-2 p-4 relative z-40 group  "
+              >
+                <div className=" absolute  bg-primary top-0 left-0 w-24 h-1 z-30  transition-all duration-200   group-hover:bg-[white] group-hover:w-1/2  "></div>
+                <div className="py-2 px-9 relative  ">
+                  <img
+                    src={ele.img}
+                    alt={ele.name}
+                    className="w-[100px] h-[100px] rounded-full"
+                  />
+                  <h3 className="mt-8 text-lg font-semibold text-[black] group-hover:text-secondery ">
+                    {ele.name}
+                  </h3>
+                  <p className="mt-4 text-base text-gray-600 group-hover:text-[white]  ">
+                    {ele.desc.slice(0, 100)}..
+                  </p>
+                </div>
+              </a>
             );
           })}
         </div>

@@ -18,7 +18,7 @@ const Product = () => {
             />
             <div className="mx-3 ">
               <h1 className="text-ont-bold   hover:text-[white] text-[black]    cursor-pointer uppercase">
-                Steel plate
+                MS plate
               </h1>
               <p>
                 Stainless steel sheet | Galvanized sheet | Silicon steel plate |
@@ -34,7 +34,7 @@ const Product = () => {
             />
             <div className="mx-3">
               <h1 className="text-xl py-2  uppercase hover:text-[white] text-[black]    cursor-pointer">
-                Steel bridge
+                pipe
               </h1>
               <p>
                 Stainless steel sheet | Galvanized sheet | Silicon steel plate |
@@ -50,7 +50,7 @@ const Product = () => {
             />
             <div className="mx-3">
               <h1 className="text-xl py-2  uppercase hover:text-[white] text-[black]    cursor-pointer">
-                Steel
+                Steel tubes
               </h1>
               <p>
                 Stainless steel sheet | Galvanized sheet | Silicon steel plate |
@@ -66,7 +66,7 @@ const Product = () => {
             />
             <div className="mx-3">
               <h1 className="text-xl py-2  uppercase hover:text-[white] text-[black]    cursor-pointer">
-                tele scopicpole
+                telecom towers
               </h1>
               <p>
                 Stainless steel sheet | Galvanized sheet | Silicon steel plate |
@@ -82,7 +82,7 @@ const Product = () => {
             />
             <div className="mx-3">
               <h1 className="text-xl py-2  uppercase hover:text-[white] text-[black]    cursor-pointer">
-                prefabricate dbuilding
+                PEB Structure
               </h1>
               <p>
                 Stainless steel sheet | Galvanized sheet | Silicon steel plate |
