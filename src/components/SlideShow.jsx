@@ -65,12 +65,6 @@ function Slideshow() {
         alt={`Slide ${currentSlideIndex + 1}`}
         className="md:w-full lg:w-full lg:h-[800px] md:h-full w-full h-[300px]"
       />
-      <video controls width="600">
-        <source
-          src="https://www.youtube.com/watch?v=-BIZfMJAhXM"
-          type="video/mp4"
-        />
-      </video>
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <div className="text-white text-center">
           <h2 className="text-3xl font-bold text-secondery uppercase ">

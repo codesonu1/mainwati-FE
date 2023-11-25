@@ -76,6 +76,7 @@ function Carousel() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
+              autoPlay
             ></iframe>
           </div>
           {/* Item 2 */}
@@ -93,6 +94,7 @@ function Carousel() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
+              autoPlay
             ></iframe>
           </div>
           {/* Item 3 */}
@@ -110,6 +112,7 @@ function Carousel() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
+              autoPlay
             ></iframe>
           </div>
         </div>
