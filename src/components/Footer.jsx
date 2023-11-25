@@ -1,5 +1,5 @@
 import { Container } from "@mui/material";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 import "../index.css";
 import { BiCurrentLocation, BiPhoneCall, BiLogoGmail } from "react-icons/bi";
 import { BiLogoInstagramAlt } from "react-icons/bi";
@@ -12,7 +12,7 @@ const Footer = () => {
       <Container className="mt-[2rem]">
         <div className="gap-3 grid lg:grid-cols-4 grid-flow-row md:grid-cols-2 py-[3rem]">
           <div>
-            <img src={logo} alt="" width={70} className=" " />
+            <img src={logo} alt="" width={70} className=" rounded-full" />
             <p className="text-secondery justify-content-justify">
               Mainawati Steel Industries Pvt. Ltd. is an industrial unit under
               vishal group. Vishal group Ltd. is a leading commercial house of

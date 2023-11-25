@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import "../index.css";
@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center  mbl-design">
           <div className="text-xl font-semibold mbl-logo">
             <a href="/">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo" className="md:w-[90px] md:h-[90px] rounded-full" />
             </a>
           </div>
           <div className="md:hidden">
