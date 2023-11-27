@@ -55,19 +55,20 @@ function Slideshow() {
         controls
         loop
         autoPlay
+        muted
         src={video}
         type="video/mp4"
       ></video>
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
+      {/* <div className="absolute inset-0 flex flex-col items-center justify-center">
         <div className="text-white text-center">
           <h2 className="text-3xl font-bold text-secondery uppercase ">
             {currentSlide.caption}
           </h2>
           <p className="text-xl text-secondery ">{currentSlide.subtitle}</p>
         </div>
-      </div>
-      <button
+      </div> */}
+      {/* <button
         onClick={prevSlide}
         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[0rem] "
       >
@@ -78,7 +79,7 @@ function Slideshow() {
         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[0rem]"
       >
         <BiSkipNext className="bg-secondery  text-3xl rounded-full hover:text-primary" />
-      </button>
+      </button> */}
     </div>
   );
 }
