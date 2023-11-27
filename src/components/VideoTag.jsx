@@ -1,4 +1,5 @@
 import React from "react";
+import video   from "../assets/video.mp4";
 
 const VideoPlayer = () => {
   const videos = [
@@ -8,11 +9,14 @@ const VideoPlayer = () => {
   ];
 
   return (
-    <video width="320" height="240" controls>
-      {videos.map((item, i) => (
-        <source src={item.src} type="video/mp4" key={i} />
-      ))}
-    </video>
+    <video
+      className="w-full h-full "
+      controls
+      loop
+      autoPlay
+      src={video}
+      type="video/mp4"
+    ></video>
   );
 };
 

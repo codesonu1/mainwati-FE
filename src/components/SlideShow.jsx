@@ -3,33 +3,23 @@ import { BiSkipPrevious, BiSkipNext } from "react-icons/bi";
 import slide1 from "../assets/slide1.png";
 import img1 from "../assets/1.png";
 import img2 from "../assets/img2.png";
+import video from "../assets/video.mp4";
 
 import "../index.css";
+import VideoPlayer from "./VideoTag";
 
 const slides = [
-  {
-    image: slide1,
-    caption: "Telecommunication & Transmission Towers",
-    subtitle: "Mainawati has a 3000 MTPA tower manufacturing unit",
-  },
-  {
-    image: img1,
-    caption: "Mainawati Steel",
-    subtitle: "Since 1995",
-  },
   // {
   //   image: "https://www.mainawatisteel.com/images/banner2.jpg",
   //   caption: "Image 3 Caption",
   //   subtitle: "Subtitle 3",
   // },
   {
-    image: "https://www.mainawatisteel.com/images/9.jpg",
+    image: { video },
     caption: "Suspension Bridge",
+    type: "video",
   },
-  {
-    image: img2,
-    caption: "exprole",
-  },
+
   // Add more slides here
 ];
 
@@ -60,11 +50,15 @@ function Slideshow() {
 
   return (
     <div className="relative">
-      <img
-        src={currentSlide.image}
-        alt={`Slide ${currentSlideIndex + 1}`}
-        className="md:w-full lg:w-full lg:h-[800px] md:h-full w-full h-[300px]"
-      />
+      <video
+        className="w-full h-full "
+        controls
+        loop
+        autoPlay
+        src={video}
+        type="video/mp4"
+      ></video>
+
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <div className="text-white text-center">
           <h2 className="text-3xl font-bold text-secondery uppercase ">
