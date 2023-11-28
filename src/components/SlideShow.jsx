@@ -7,6 +7,7 @@ import video from "../assets/video.mp4";
 
 import "../index.css";
 import VideoPlayer from "./VideoTag";
+import { Link } from "react-router-dom";
 
 const slides = [
   // {
@@ -16,7 +17,8 @@ const slides = [
   // },
   {
     image: { video },
-    caption: "Suspension Bridge",
+    caption: "Building nation",
+    subtitle: "Always a step ahead in",
     type: "video",
   },
 
@@ -60,14 +62,26 @@ function Slideshow() {
         type="video/mp4"
       ></video>
 
-      {/* <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <div className="text-white text-center">
-          <h2 className="text-3xl font-bold text-secondery uppercase ">
+      <div className="absolute inset-0 flex flex-col  mx-8   justify-center">
+        <div className="text-white text-start">
+          <span className="text-4xl font-bold bg-[white] p-4 rounded-md  text-primary uppercase ">
             {currentSlide.caption}
-          </h2>
-          <p className="text-xl text-secondery ">{currentSlide.subtitle}</p>
+          </span>
+          <br></br>
+          <p className="my-8">
+            <span className="text-xl px-4 rounded-md bg-secondery text-[black] py-4 ">
+              {currentSlide.subtitle}
+            </span>
+          </p>
+          <p>
+            <Link to={"/contact-us"}>
+              <span className="bg-primary text-secondery p-3 rounded-md uppercase font-bold cursor-pointer">
+                contact us
+              </span>
+            </Link>
+          </p>
         </div>
-      </div> */}
+      </div>
       {/* <button
         onClick={prevSlide}
         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full md:mt-[4rem] lg:mt-0 mt-[0rem] "
