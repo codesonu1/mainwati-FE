@@ -1,12 +1,11 @@
-import React from "react";
-import video   from "../assets/video.mp4";
+import video from "../assets/video.mp4";
 
 const VideoPlayer = () => {
-  const videos = [
-    {
-      src: "https://www.youtube.com/watch?v=-BIZfMJAhXM",
-    },
-  ];
+  // const videos = [
+  //   {
+  //     src: "https://www.youtube.com/watch?v=-BIZfMJAhXM",
+  //   },
+  // ];
 
   return (
     <video
